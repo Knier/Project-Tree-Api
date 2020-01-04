@@ -1,6 +1,5 @@
 class CodeExecutionService
   class << self
-
     def run_code(code:)
       write_code(code: code)
     end
